@@ -9,7 +9,7 @@ namespace Crud.Repository.Data
         {
         }
 
-        public DbSet<Usuario> MyProperty { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
     }
 }
