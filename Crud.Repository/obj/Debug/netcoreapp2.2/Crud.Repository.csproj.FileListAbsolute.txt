@@ -1,0 +1,7 @@
+C:\Users\Jony\source\repos\Crud\Crud.Repository\bin\Debug\netcoreapp2.2\Crud.Repository.deps.json
+C:\Users\Jony\source\repos\Crud\Crud.Repository\bin\Debug\netcoreapp2.2\Crud.Repository.dll
+C:\Users\Jony\source\repos\Crud\Crud.Repository\bin\Debug\netcoreapp2.2\Crud.Repository.pdb
+C:\Users\Jony\source\repos\Crud\Crud.Repository\obj\Debug\netcoreapp2.2\Crud.Repository.AssemblyInfoInputs.cache
+C:\Users\Jony\source\repos\Crud\Crud.Repository\obj\Debug\netcoreapp2.2\Crud.Repository.AssemblyInfo.cs
+C:\Users\Jony\source\repos\Crud\Crud.Repository\obj\Debug\netcoreapp2.2\Crud.Repository.dll
+C:\Users\Jony\source\repos\Crud\Crud.Repository\obj\Debug\netcoreapp2.2\Crud.Repository.pdb
