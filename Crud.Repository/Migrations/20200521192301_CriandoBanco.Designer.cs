@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Crud.Repository.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20200521005136_CriandoBanco")]
+    [Migration("20200521192301_CriandoBanco")]
     partial class CriandoBanco
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,11 +23,17 @@ namespace Crud.Repository.Migrations
                     b.Property<int>("UsuarioId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Email");
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50);
 
-                    b.Property<string>("Nome");
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(50);
 
-                    b.Property<string>("Senha");
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasMaxLength(50);
 
                     b.HasKey("UsuarioId");
 

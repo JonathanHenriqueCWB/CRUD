@@ -21,11 +21,17 @@ namespace Crud.Repository.Migrations
                     b.Property<int>("UsuarioId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Email");
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50);
 
-                    b.Property<string>("Nome");
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(50);
 
-                    b.Property<string>("Senha");
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasMaxLength(50);
 
                     b.HasKey("UsuarioId");
 

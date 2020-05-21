@@ -13,9 +13,9 @@ namespace Crud.Repository.Migrations
                 {
                     UsuarioId = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Nome = table.Column<string>(nullable: true),
-                    Email = table.Column<string>(nullable: true),
-                    Senha = table.Column<string>(nullable: true)
+                    Nome = table.Column<string>(maxLength: 50, nullable: false),
+                    Email = table.Column<string>(maxLength: 50, nullable: false),
+                    Senha = table.Column<string>(maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {

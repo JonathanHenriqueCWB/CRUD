@@ -5,3 +5,4 @@ C:\Users\Jony\source\repos\Crud\Crud.Domain\obj\Debug\netcoreapp2.2\Crud.Domain.
 C:\Users\Jony\source\repos\Crud\Crud.Domain\obj\Debug\netcoreapp2.2\Crud.Domain.AssemblyInfo.cs
 C:\Users\Jony\source\repos\Crud\Crud.Domain\obj\Debug\netcoreapp2.2\Crud.Domain.dll
 C:\Users\Jony\source\repos\Crud\Crud.Domain\obj\Debug\netcoreapp2.2\Crud.Domain.pdb
+C:\Users\Jony\source\repos\Crud\Crud.Domain\obj\Debug\netcoreapp2.2\Crud.Domain.csprojAssemblyReference.cache
