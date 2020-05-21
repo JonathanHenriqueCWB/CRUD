@@ -1,4 +1,5 @@
 ﻿using Crud.Domain.Model;
+using Crud.Repository.Config;
 using Microsoft.EntityFrameworkCore;
 
 namespace Crud.Repository.Data
@@ -11,5 +12,10 @@ namespace Crud.Repository.Data
 
         public DbSet<Usuario> Usuarios { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new UsuarioConfiguration());
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }
