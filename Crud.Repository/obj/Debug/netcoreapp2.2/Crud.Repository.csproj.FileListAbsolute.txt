@@ -6,3 +6,6 @@ C:\Users\Jony\source\repos\Crud\Crud.Repository\obj\Debug\netcoreapp2.2\Crud.Rep
 C:\Users\Jony\source\repos\Crud\Crud.Repository\obj\Debug\netcoreapp2.2\Crud.Repository.dll
 C:\Users\Jony\source\repos\Crud\Crud.Repository\obj\Debug\netcoreapp2.2\Crud.Repository.pdb
 C:\Users\Jony\source\repos\Crud\Crud.Repository\obj\Debug\netcoreapp2.2\Crud.Repository.csprojAssemblyReference.cache
+C:\Users\Jony\source\repos\Crud\Crud.Repository\bin\Debug\netcoreapp2.2\Crud.Domain.dll
+C:\Users\Jony\source\repos\Crud\Crud.Repository\bin\Debug\netcoreapp2.2\Crud.Domain.pdb
+C:\Users\Jony\source\repos\Crud\Crud.Repository\obj\Debug\netcoreapp2.2\Crud.Repository.csproj.CopyComplete

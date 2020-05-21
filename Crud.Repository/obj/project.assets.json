@@ -804,6 +804,16 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "Crud.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Crud.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Crud.Domain.dll": {}
+        }
       }
     }
   },
@@ -3197,10 +3207,16 @@
         "system.threading.tasks.4.0.11.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "Crud.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Crud.Domain/Crud.Domain.csproj",
+      "msbuildProject": "../Crud.Domain/Crud.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Crud.Domain >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Pomelo.EntityFrameworkCore.MySql >= 2.2.0"
     ]
@@ -3234,7 +3250,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Jony\\source\\repos\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
+              "projectPath": "C:\\Users\\Jony\\source\\repos\\Crud\\Crud.Domain\\Crud.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
