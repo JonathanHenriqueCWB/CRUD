@@ -3228,11 +3228,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jony\\source\\repos\\Crud\\Crud.Repository\\Crud.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Jony\\source\\repos\\CRUD\\Crud.Repository\\Crud.Repository.csproj",
       "projectName": "Crud.Repository",
-      "projectPath": "C:\\Users\\Jony\\source\\repos\\Crud\\Crud.Repository\\Crud.Repository.csproj",
+      "projectPath": "C:\\Users\\Jony\\source\\repos\\CRUD\\Crud.Repository\\Crud.Repository.csproj",
       "packagesPath": "C:\\Users\\Jony\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jony\\source\\repos\\Crud\\Crud.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Jony\\source\\repos\\CRUD\\Crud.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3251,8 +3251,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Jony\\source\\repos\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
-              "projectPath": "C:\\Users\\Jony\\source\\repos\\Crud\\Crud.Domain\\Crud.Domain.csproj"
+            "C:\\Users\\Jony\\source\\repos\\CRUD\\Crud.Domain\\Crud.Domain.csproj": {
+              "projectPath": "C:\\Users\\Jony\\source\\repos\\CRUD\\Crud.Domain\\Crud.Domain.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jony\\source\\repos\\Crud\\Crud.Domain\\Crud.Domain.csproj": {}
+    "C:\\Users\\Jony\\source\\repos\\CRUD\\Crud.Domain\\Crud.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jony\\source\\repos\\Crud\\Crud.Domain\\Crud.Domain.csproj": {
+    "C:\\Users\\Jony\\source\\repos\\CRUD\\Crud.Domain\\Crud.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jony\\source\\repos\\Crud\\Crud.Domain\\Crud.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Jony\\source\\repos\\CRUD\\Crud.Domain\\Crud.Domain.csproj",
         "projectName": "Crud.Domain",
-        "projectPath": "C:\\Users\\Jony\\source\\repos\\Crud\\Crud.Domain\\Crud.Domain.csproj",
+        "projectPath": "C:\\Users\\Jony\\source\\repos\\CRUD\\Crud.Domain\\Crud.Domain.csproj",
         "packagesPath": "C:\\Users\\Jony\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jony\\source\\repos\\Crud\\Crud.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Jony\\source\\repos\\CRUD\\Crud.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
