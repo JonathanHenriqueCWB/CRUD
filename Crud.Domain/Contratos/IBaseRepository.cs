@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Crud.Domain.Contratos
 {
-    interface IBaseRepository<TEntity> : IDisposable  where TEntity: class
+    public interface IBaseRepository<TEntity> : IDisposable  where TEntity: class
     {        
         void Adicionar(TEntity entity);
         IEnumerable<TEntity> Listar();

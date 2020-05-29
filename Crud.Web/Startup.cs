@@ -1,4 +1,6 @@
+using Crud.Domain.Contratos;
 using Crud.Repository.Data;
+using Crud.Repository.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -21,8 +23,12 @@ namespace Crud.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
             #region Configuração da string de conexão com MySql
             services.AddDbContext<Context>(option => option.UseMySql(Configuration.GetConnectionString("MySqlConnection"), m => m.MigrationsAssembly("Crud.Repository")));
+            #endregion
+            #region Injeção de dependecia
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             #endregion
 
             // In production, the Angular files will be served from this directory
