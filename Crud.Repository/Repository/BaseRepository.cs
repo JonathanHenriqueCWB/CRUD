@@ -2,22 +2,22 @@
 using Crud.Repository.Data;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace Crud.Repository.Repository
 {
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
     {
-        protected readonly Context _context;
+        protected readonly Context Context;
         public BaseRepository(Context context)
         {
-            _context = context;
+            Context = context;
         }
 
         public void Adicionar(TEntity entity)
         {
-            _context.Set<TEntity>().Add(entity);
-            _context.SaveChanges();
+            Context.Set<TEntity>().Add(entity);
+            Context.SaveChanges();
 
         }
 
@@ -38,7 +38,7 @@ namespace Crud.Repository.Repository
 
         public IEnumerable<TEntity> Listar()
         {
-            throw new NotImplementedException();
+            return Context.Set<TEntity>().ToList();
         }
     }
 }
