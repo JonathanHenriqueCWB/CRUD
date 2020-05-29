@@ -28,7 +28,7 @@ export class UsuarioService implements OnInit {
   }
 
   public cadastrar(usuario: Usuario): Observable<Usuario> {
-    return this.http.post<Usuario>(this.url + 'api/usuario/cadastrar', JSON.stringify(usuario), { headers: this.headers });
+    return this.http.post<Usuario>(this.url + 'api/usuario/', JSON.stringify(usuario), { headers: this.headers });
   }
 
   public alterar(usuario: Usuario): Observable<Usuario> {

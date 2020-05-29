@@ -19,13 +19,12 @@ export class CadastroUsuarioComponent implements OnInit {
 
   public cadastrar() {
     console.log("Nome: ", this.usuario.nome, "Email: ", this.usuario.email, "Senha: ", this.usuario.senha);
-    /*
     this.usuarioService.cadastrar(this.usuario).subscribe(
       data => {
+        console.log(this.usuario.nome, "cadastrado com sucesso!");
       },
       err => {
       }
     );
-    */
   }
 }
