@@ -1,0 +1,28 @@
+<div class="text-center">
+
+  <h2 class="text-center mt-5">Cadastrar Usuario</h2>
+
+  <form>
+    <div class="form-group">
+      <label for="nome" class="sr-only">Name</label>
+      <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome:"
+             #nome="ngModel" [(ngModel)]="usuario.nome"/>
+    </div>
+
+    <div class="form-group">
+      <label for="email" class="sr-only">Email address</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="Email:"
+             #email="ngModel" [(ngModel)]="usuario.email"/>
+    </div>
+
+    <div class="form-group">
+      <label for="senha" class="sr-only">Password</label>
+      <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha:"
+             #senha="ngModel" [(ngModel)]="usuario.senha"/>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block mb-5" (click)="cadastrar()">Cadastrar</button>
+  </form>
+</div>
+
+<a class="alert-link" [routerLink]='["/usuario"]'> << Voltar </a>
