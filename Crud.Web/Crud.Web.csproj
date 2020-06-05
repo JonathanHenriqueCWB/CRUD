@@ -43,7 +43,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="ClientApp\src\app\usuario\atualizar\" />
     <Folder Include="ClientApp\src\app\usuario\cadastrar\" />
+    <Folder Include="ClientApp\src\app\usuario\remover\" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

@@ -1,36 +1,30 @@
 <h2 class="text-center mt-5">Usuario Componente</h2>
 
-<a class="alert-link" [routerLink]='["/cadastrar-usuario"]'> Cadastrar </a>
+<a class="alert-link" [routerLink]='["/usuario-cadastrar"]'> Cadastrar </a>
 
 <p class="mt-3">Lista de Usuarios:</p>
 
 <table class="table">
-  <thead class="thead-dark">
+  <thead class="thead-dark" >
     <tr>
-      <th scope="col">Id</th>
       <th scope="col">Nome</th>
       <th scope="col">Email</th>
       <th scope="col">Senha</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
+      <td>Mario</td>
+      <td>mario@email.com</td>
+      <td>Mario@1234</td>
+      <td class="text-right">
+         <a class="btn btn-primary" [routerLink]='["/"]'> Visualizar </a>
+        | <a class="btn btn-warning" [routerLink]='["/usuario-atualizar"]'> Atualizar </a>
+        | <a class="btn btn-danger" [routerLink]='["/usuario-remover"]'> Remover </a>
+      </td>
     </tr>
   </tbody>
 </table>
+
+<button type="submit" class="btn btn-primary" (click)="listar()">Sign in</button>

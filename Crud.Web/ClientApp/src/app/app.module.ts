@@ -13,6 +13,8 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { UsuarioService } from './services/usuario.service';
 import { CadastroUsuarioComponent } from './usuario/cadastrar/cadastrar.usuario.component';
+import { AtualizarUsuarioComponent } from './usuario/atualizar/atualizar.usuario.component';
+import { RemoverUsuarioComponent } from './usuario/remover/remover.usuario.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { CadastroUsuarioComponent } from './usuario/cadastrar/cadastrar.usuario.
     CounterComponent,
     FetchDataComponent,
     UsuarioComponent,
-    CadastroUsuarioComponent
+    CadastroUsuarioComponent,
+    AtualizarUsuarioComponent,
+    RemoverUsuarioComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -33,7 +37,9 @@ import { CadastroUsuarioComponent } from './usuario/cadastrar/cadastrar.usuario.
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'usuario', component: UsuarioComponent },
-      { path: 'cadastrar-usuario', component: CadastroUsuarioComponent },
+      { path: 'usuario-cadastrar', component: CadastroUsuarioComponent },
+      { path: 'usuario-atualizar', component: AtualizarUsuarioComponent },
+      { path: 'usuario-remover', component: RemoverUsuarioComponent },
     ])
   ],
   providers: [UsuarioService],

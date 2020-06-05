@@ -23,22 +23,24 @@ namespace Crud.Repository.Repository
 
         public void Atualizar(TEntity entity)
         {
-            throw new NotImplementedException();
+            Context.Set<TEntity>().Update(entity);
+            Context.SaveChanges();
         }
 
         public void Deletar(TEntity entity)
         {
-            throw new NotImplementedException();
-        }
-
-        public void Dispose()
-        {
-            throw new NotImplementedException();
+            Context.Set<TEntity>().Remove(entity);
+            Context.SaveChanges();
         }
 
         public IEnumerable<TEntity> Listar()
         {
             return Context.Set<TEntity>().ToList();
+        }
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
         }
     }
 }

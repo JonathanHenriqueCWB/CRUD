@@ -10,6 +10,7 @@ import { UsuarioService } from '../services/usuario.service';
 export class UsuarioComponent implements OnInit {
 
   public usuario: Usuario;
+  //public produto: string[];
 
   constructor(private usuarioService: UsuarioService) {
   }
